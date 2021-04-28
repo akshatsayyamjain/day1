@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h2 >REGISTRATION FORM</h2>
+    <br action="" method="">
+      <div>
+        <label for="name">Name:</label>
+        <input required type="text" name="myName" id="name" />
+      </div>
+    </br>
+      <div  >
+        Email:
+        <input required type="email" name="myEmail" id="email" aria-required="true" />
+      </div>
+    </br>
+      <div>
+        Password:
+        <input required type="password" name="myPassword" id="password" />
+      </div>
+    </br>
+    <div>
+      Phone number:<input required type="number" name="myNumber" id="phone"/>
+    </div>
+    </form><br>
+      <div>
+          Date of birth:<input required type="date" name="myDate" id="date" />
+      </div>
+    </br>
+    <div>
+        Gender: 
+        Male<input type="radio" name="myGender" id="gender"/>
+        Female<input type="radio" name="myGender" id="gender"/>
+    </div>
+  </br>
+  <div>
+    College:<input required type="text" name="myCollege" id="college"/>
+  </div>
+</br>
+  <div>
+    Branch:  
+    <select>  
+    <Option value="CSNW">CSNW</Option>  
+    <option value="CSSE">CSSE</option>  
+    <option value="IT">IT</option>   
+    </select>
+   </div>
+</br>
+   <div>
+    Roll number:<input required type="number" name="myrollNumber" id="roll"/>
+  </div>
+  </br>
+    <div>
+        <h3>WHY YOU WANT TO JOIN SCHEMAX?</h3>
+    <textarea id="why" name="myText" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        Confirm?
+        <input  id="confirm" type="checkbox" name="confirmation" checked/>
+    </div>
+    <input style="margin-top: 30px" type="submit" value="Submit Now">
+
+    </form>
+  </body>
+</html>
